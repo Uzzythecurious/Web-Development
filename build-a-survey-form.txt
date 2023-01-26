@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<body>
+  <link rel="stylesheet" href="styles.css">
+  <h1 id="title"> Survey Form project</h1>
+  <p id="description">Objective:
+     Show competency in building a basic form </p>
+<form id="survey-form">
+  <fieldset>
+  <label id="name-label">Name <input id='name' type='text' placeholder="Enter your full name" required></input></label>
+  <label id="email-label">Email <input required id='email' type='email' placeholder="bizz@foo.com"></input></label>
+  <label id="number-label">Number <input  id='number' type='number' min='0' max='120' placeholder="0-120"></input></label>
+  </fieldset>
+
+<fieldset>
+   <label>What type of hobby do you enjoy the most?
+    <select id="dropdown" >
+      <option value="0">(select one)</option>
+      <option value="1">Sports</option>
+      <option value="2">Gaming</option>
+      <option value="3">Scrolling reddit</option>
+      <option value="4">Learning to code</option>
+    </select>
+</fieldset>
+
+<fieldset>
+<label>Do you enjoy making websites?</label>
+<label>Yes<input type="radio" name="enjoy" id="yes" value="yes"/></label>
+<label>No <input type="radio" name="enjoy" id='no' value="no"><label>
+
+</fieldset>
+
+
+<fieldset>
+  <label >What subjects do you like?<input type="checkbox" name="subject"/ value="6"> Maths</label>
+  <label><input type="checkbox" name="subject" value='0'/> Chemistry</label>
+  <label><input type="checkbox" name="subject" value='1'/> Physics</label>
+  <label><input type="checkbox" name="subject" value='2'/> Biology</label>
+<label><input type="checkbox" name="subject" value='3'/> Engineering</label>
+<label><input type="checkbox" name="subject" value='4'/> Computer science</label>
+<label><input type="checkbox" name="subject" value='5'/> Other</label>
+  </fieldset>
+
+<fieldset>
+<label for="bio">Provide a bio:
+          <textarea id="bio" name="bio" rows="3" cols="30" placeholder="Give me all the information required to phish you."></textarea>
+  </label>
+  </fieldset>
+<fieldset>
+<input id="submit" type="submit" value="Submit" class="inputbox"/>
+</fieldset>
+  </form>
+
+
+
+</body>
+</html>
+
+
